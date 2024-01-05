@@ -1,0 +1,15 @@
+@import url('./assets/normalize.css');
+@import url('./assets/fonts/fonts.css');
+
+:root {
+    font-size: 1dvw;
+}
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+@media (orientation: portrait) {
+    :root {
+        font-size: 4dvw;
+    }
+}
