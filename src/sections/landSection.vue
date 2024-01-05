@@ -9,8 +9,18 @@
                 <h1><span>R</span>ivers <span>G</span>rove</h1>
             </div>
             <div class="contact">
-                <i class="fa-duotone fa-phone-volume"></i>&nbsp;
-                <span>+57 322 7866582</span>
+                <button class="contactButton">
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+                <button class="contactButton">
+                    <i class="fa-duotone fa-envelope"></i>&nbsp;
+                </button>
+                <button>
+                    <i class="fa-solid fa-user"></i>
+                </button>
+                <button>
+                    <i class="fa-solid fa-earth-americas"></i>
+                </button>
             </div>
         </div>
     </section>
@@ -52,8 +62,16 @@
             }
         }
         & .contact {
+            & button {
+                height: 2rem;
+                aspect-ratio: 1;
+                background-color: #809bcd;
+                border: none;
+                border-radius: 50%;
+
+            }
             i {
-                color: #809bcd;
+                color: #fff;
             }
         }
     }
