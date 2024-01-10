@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap');
 @font-face {
+    font-family: 'roundo';
+    src: url('./Roundo-Regular.ttf') format('ttf');
+    font-weight: normal;
+}
+@font-face {
     font-family: 'Myriad Pro'; 
     src: url('./MyriadPro-Light.otf') format('otf'); 
     font-weight: 300;

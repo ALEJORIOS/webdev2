@@ -6,10 +6,10 @@
         <div class="header">
             <div class="logo">
                 <img src="../assets/rg.svg" alt="RG Logo">
-                <h1><span>R</span>ivers <span>G</span>rove</h1>
+                <h1>hod</h1>
             </div>
-            <div class="contact">
-                <button class="contactButton">
+            <div class="options">
+                <!-- <button class="contactButton">
                     <i class="fa-solid fa-phone"></i>
                 </button>
                 <button class="contactButton">
@@ -20,7 +20,9 @@
                 </button>
                 <button>
                     <i class="fa-solid fa-earth-americas"></i>
-                </button>
+                </button> -->
+                <button class="contact">Contacto</button>
+                <button class="menu">Menú</button>
             </div>
         </div>
     </section>
@@ -40,7 +42,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-left: 4rem;
+        padding: 0 4rem;
         & .logo {
             width: fit-content;
             height: 4rem;
@@ -56,22 +58,34 @@
         h1 {
             margin: 0;
             color: #C0C0C0;
-            font-size: 1.2rem;
+            font-size: 2rem;
+            font-family: 'roundo';
             & span {
                 color: #a8c3f5;
             }
         }
-        & .contact {
+        & .options {
+            display: flex;
+            gap: 1rem;
             & button {
-                height: 2rem;
-                aspect-ratio: 1;
-                background-color: #809bcd;
-                border: none;
-                border-radius: 50%;
-
+                cursor: pointer;
             }
-            i {
-                color: #fff;
+            & .contact {
+                border: 2px solid #a8c3f5;
+                background-color: #fff;
+                height: 2.5rem;
+                padding: 0 1rem;
+                border-radius: 1.2rem;
+                color: #7fa2e2;
+            }
+
+            & .menu {
+                border: 2px solid #a8c3f5;
+                background-color: #fff;
+                height: 2.5rem;
+                padding: 0 1rem;
+                border-radius: 1.2rem;
+                color: #7fa2e2;
             }
         }
     }
